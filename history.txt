@@ -1,0 +1,500 @@
+   20  exit
+   21  python manage.py runserver 8800
+   22  exit
+   23  git init
+   24  git add .
+   25  exit
+   26  mkdir second_project
+   27  ls
+   28  cd second_project
+   29  python --version
+   30  pip --version
+   31  python -h
+   32  clear
+   33  python -m venv dm
+   34  ls
+   35  ll
+   36  ls -al
+   37  cd dm
+   38  cd Scripts/
+   39  ls -al
+   40  . activate
+   41  cd ..
+   42  cd ..
+   43  deactivate
+   44  rm -r dm
+   45  history >> history.txt
+   46  python -V
+   47  python --version
+   48  pip -V
+   49  python -m venv dm
+   50  ls
+   51  cd dm
+   52  cd Scripts/
+   53  ls -al
+   54  . activate
+   55  pip freeze
+   56  pip list
+   57  deactivate
+   58  pip list
+   59  cd ..
+   60  cd ..
+   61  pip i pip
+   62  pip install
+   63  pip install pip
+   64  cd dm
+   65  cd Scripts/
+   66  . activate
+   67  clear
+   68  pip install django
+   69  pip uninstall django
+   70  cd ..
+   71  cd ..
+   72  pip list
+   73  pip install django
+   74  django-admin --version
+   75  django-admin startproject calculator
+   76  cd calculator
+   77  ls
+   78  python manage.py runserver
+   79  python manage.py runserver 8080
+   80  exit
+   81  cd second_project/
+   82  cd calculator/
+   83  ls
+   84  python manage.py startapp calc_x
+   85  ls
+   86  cd calc_x/
+   87  ls
+   88  cd ..
+   89  cd dm
+   90  cd ..
+   91  cd dm
+   92  cd Scripts/
+   93  . activate
+   94  cd ..
+   95  cd ..
+   96  cd calculator/
+   97  cd calc_x/
+   98  ls
+   99  touch urls.py
+  100  exit
+  101  source "C:/Users/Sadullah TANRIKULU/Clarusway_my_software_adventure/Back_End/Self_Study_Week/second_project/dm/Scripts/activate"
+  102  deactivate
+  103  exit
+  104  cd officialtutorial/
+  105  python manage.py runserver
+  106  xit
+  107  exit
+  108  python manage.py runserver
+  109  ls
+  110  cd ..
+  111  ls
+  112  cd dm
+  113  cd Scripts/
+  114  . activate
+  115  deactivate
+  116  cd ..
+  117  cd ..
+  118  ls
+  119  rm -r dm
+  120  cd calculator/
+  121  python manage.py runserver
+  122  cd ..
+  123  cd ..
+  124  python --version
+  125  pip -V
+  126  django -version
+  127  python -m django --version
+  128  django-admin --version
+  129  mkdir third_project
+  130  cd third_project/
+  131  python -m venv dm
+  132  ls
+  133  cd dm
+  134  ls
+  135  cd Scripts/
+  136  ll
+  137  pip list
+  138  . activate
+  139  pip list
+  140  cd ..
+  141  cd ..
+  142  pip install django
+  143  pip freeze
+  144  pip list
+  145  django-admin startproject myresume
+  146  ls
+  147  python manage.py makemigrations
+  148  cd myresume/
+  149  python manage.py makemigrations
+  150  python manage.py migrate
+  151  mkdir static
+  152  python manage.py startapp base
+  153  ls
+  154  mkdir templates
+  155  ls
+  156  cd templates
+  157  mkdir base
+  158  ls
+  159  cd ..
+  160  python manage.py createsuperuser
+  161  python manage.py migrate
+  162  python manage.py runserver 8888
+  163  exit
+  164  cd ..
+  165  cd angular_typescript/
+  166  cd typescript3
+  167  npm -g list
+  168  tsc script.ts
+  169  node -v
+  170  npm run start
+  171  exit
+  172  npm start
+  173  cd react-ts/
+  174  npm start
+  175  exit
+  176  cd react-ts/
+  177  npm start
+  178  exit
+  179  mkdir todo-app
+  180  cd todo-app/
+  181  python -m venv dja
+  182  ls
+  183  cd dja
+  184  cd Scripts/
+  185  . activate
+  186  cd ..
+  187  cd ..
+  188  pip list
+  189  pip install django
+  190  django-admin startproject todo-app
+  191  django-admin startproject todo_app
+  192  cd todo_app/
+  193  python manage.py runserver
+  194  python manage.py startapp todos
+  195  python manage.py makemigrations
+  196  python manage.py migrate
+  197  python manage.py runserver
+  198  pip install djangorestframework
+  199  python manage.py runserver
+  200  python manage.py runserver
+  201  exit
+  202  git clone https://github.com/harveywinters7698/django-react-todo-app.git
+  203  cd django-react-todo-app/
+  204  python manage.py runserver
+  205  ls
+  206  cd project/
+  207  python manage.py runserver
+  208  cd ..
+  209  cd ..
+  210  ls
+  211  cd todo-app/
+  212  ls
+  213  cd dja/
+  214  cd Scripts/
+  215  . activate
+  216  cd ..
+  217   cd ..
+  218  cd todo_app/
+  219  python manage.py runserver
+  220  python manage.py migrate
+  221  python manage.py makemigrations
+  222  python manage.py migrate
+  223  python manage.py runserver
+  224  cd ..
+  225  git init
+  226  git add .
+  227  clear
+  228  exit
+  229  python manage.py runserver
+  230  cd todo_app/
+  231  python manage.py runserver
+  232  exit
+  233  ls
+  234  cd todo_app/
+  235  git init
+  236  heroku login
+  237  heroku git:remote -a djangoapi---1-first-try
+  238  git remote -v
+  239  heroku create djangoapitesting
+  240  exit
+  241  ls
+  242  cd todo_app/
+  243  cd dja
+  244  cd ..
+  245  ls
+  246  cd dja/
+  247  cd Scripts/
+  248  . activate
+  249  cd ..
+  250  cd ..
+  251  cd todo_app/
+  252  pip freeze
+  253  pip install gunicorn whitenoise
+  254  pip freeze > requirements.txt
+  255  touch runtime.txt
+  256  touch Procfile
+  257  python manage.py runserver
+  258  deactivate
+  259  exit
+  260  cd react-ts/
+  261  npm start
+  262  npm start
+  263  npm i axios
+  264  npm start
+  265  exit
+  266  cd todo_app/
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd dja/
+  271  cd Scripts/
+  272  . activate
+  273  cd ..
+  274  cd ..
+  275  cd todo_app/
+  276  python manage.py runserver
+  277  exit
+  278  ls
+  279  cd todo_app/
+  280  python manage.py runserver
+  281  cd ..
+  282  ls
+  283  cd dja/
+  284  cd Scripts/
+  285  . activate
+  286  cd ..
+  287  cd ..
+  288  cd todo_app/
+  289  python manage.py runserver
+  290  exit
+  291  python -m venv apienv
+  292  ls
+  293  cd apienv/
+  294  cd Scripts/
+  295  . activate
+  296  cd ..
+  297  cd ..
+  298  django -V
+  299  pip list
+  300  pip install django
+  301  pip freeze
+  302  django-admin startproject django_drinks_api
+  303  pip install djangorestframework
+  304  pip freeze
+  305  django-admin
+  306  python manage.py runserver
+  307  cd django_drinks_api/
+  308  git init
+  309  python manage.py runserver
+  310  python manage.py migrate
+  311  python manage.py createsuperuser
+  312  python manage.py runserver
+  313  python manage.py makemigrations django_drinks_api
+  314  python manage.py makemigrations django_drinks_api
+  315  python manage.py migrate
+  316  python manage.py runserver
+  317  python manage.py runserver
+  318  python manage.py runserver
+  319  python manage.py migrate
+  320  python manage.py runserver
+  321  exit
+  322  python -m venv env
+  323  ls
+  324  cd env
+  325  cd Scripts/
+  326  . activate
+  327  cd ..
+  328  cd ..
+  329  pip list
+  330  pip install django
+  331  pip freeze
+  332  django-admin
+  333  django-admin startproject drinks_api
+  334  cd drinks_api/
+  335  git init
+  336  django-admin startapp base
+  337  python manage.py runserver
+  338  python manage.py makemigrations
+  339  python manage.py migrate
+  340  python manage.py runserver
+  341  django-admin createsuperuser
+  342  python manage.py createsuperuser
+  343  python manage.py runserver
+  344  python manage.py makemigrations
+  345  python manage.py makemigrations drinks_api
+  346  python manage.py migrate
+  347  python manage.py runserver
+  348  pip install djangorestframework
+  349  pip freeze
+  350  python manage.py runserver
+  351  exit
+  352  npm install -D tailwindcss
+  353  npx tailwindcss init
+  354  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  355  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  356  npm i daisyui
+  357  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  358  npx tailwindcss --watch
+  359  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  360  exit
+  361  source "c:/Users/Sadullah TANRIKULU/Clarusway_my_software_adventure/Back_End/Self_Study_Week/drinks-api/env/Scripts/activate"
+  362  cd drinks_api/
+  363  python manage.py runserver
+  364  python manage.py runserver
+  365  exit
+  366  source "c:/Users/Sadullah TANRIKULU/Clarusway_my_software_adventure/Back_End/Self_Study_Week/drinks-api/env/Scripts/activate"
+  367  "c:/Users/Sadullah TANRIKULU/Clarusway_my_software_adventure/Back_End/Self_Study_Week/drinks-api/env/Scripts/python.exe" -m pip install -U autopep8
+  368  exit
+  369  cd officialtutorial/
+  370  ls
+  371  python manage.py runserver
+  372  exit
+  373  git init
+  374  git clone https://github.com/Sadullah-TANRIKULU/sadullah-tanrikulu.git
+  375  exit
+  376  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  377  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  378  git init
+  379  git add .
+  380  git init
+  381  git add .
+  382  tsc script.ts --watch
+  383  cd src
+  384  tsc script.ts --watch
+  385  tsc script.ts --watch
+  386  exit
+  387  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  388  exit
+  389  npm install --save canvas-confetti
+  390  npm uninstall canvas-confetti
+  391  npm i confetti.ts
+  392  exit
+  393  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  394  exit
+  395  tsc script.ts
+  396  tsc ./src/script.ts
+  397  tsc ./src/script.ts --watch
+  398  exit
+  399  tsc script.ts
+  400  node script.js
+  401  tsc script.ts
+  402  tsc script.ts
+  403  tsc script.ts --watch
+  404  exit
+  405  tsc ./src/script.ts --watch
+  406  exit
+  407  npm install -D tailwindcss
+  408  npx tailwindcss init
+  409  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  410  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  411  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  412  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  413  git init
+  414  git add .
+  415  exit
+  416  tsc ./src/script.ts
+  417  tsc ./src/script.ts --watch
+  418  exit
+  419  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  420  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+  421  exit
+  422  exit
+  423  python oop.py
+  424  cd django-inclass/
+  425  python oop.py
+  426  python oop.py
+  427  python oop.py
+  428  python oop.py
+  429  python oop.py
+  430  python oop.py
+  431  python oop.py
+  432  python oop.py
+  433  python oop.py
+  434  python oop.py
+  435  python oop.py
+  436  python oop.py
+  437  python oop.py
+  438  python oop.py
+  439  python oop.py
+  440  clear
+  441  python oop.py
+  442  python oop.py
+  443  python oop.py
+  444  python oop.py
+  445  python oop.py
+  446  python oop.py
+  447  python oop.py
+  448  python oop.py
+  449  python oop.py
+  450  python oop.py
+  451  python oop.py
+  452  python oop.py
+  453  python oop.py
+  454  clear
+  455  python oop.py
+  456  python oop.py
+  457  python oop.py
+  458  python oop.py >> output.txt
+  459  python oop.py
+  460  python oop.py >> output.txt
+  461  exit
+  462  npx create-react-app team-observable && cd team-observable && npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p && npm i daisyui && npm install react-icons --save
+  463  npm run start
+  464  npm install react-router-dom@6
+  465  npm run start
+  466  npm run start
+  467  exit
+  468  python game.py
+  469  python game.py
+  470  python game.py
+  471  python game.py
+  472  clear
+  473  python -V
+  474  exit
+  475  ls
+  476  cd team-observable/
+  477  npm run start
+  478  exit
+  479  cd myfire-blog-app/
+  480  npm run start
+  481  exit
+  482  cd team-observable/
+  483  npm run start
+  484  npm install -D @tailwindcss/forms
+  485  npm run start
+  486  npm uninstall -D @tailwindcss/forms
+  487  npm run start
+  488  npm run start
+  489  npm i firebase
+  490  npm run start
+  491  exit
+  492  cd team-observable/
+  493  npm run start
+  494  exit
+  495  ll
+  496  cd Self_Study_Week/
+  497  cd drinks-api/
+  498  cd drinks_api/
+  499  python manage.py runserver
+  500  exit
+  501  python -V
+  502  python --version
+  503  pip -V
+  504  python -h
+  505  python -m venv dja
+  506  cd dja/
+  507  ll
+  508  cd Scripts/
+  509  ll
+  510  . activate
+  511  cd ..
+  512  cd ..
+  513  pip list
+  514  pip freeze
+  515  pip install django
+  516  pip list
+  517  pip freeze
+  518  pip freeze >> requirements.txt
+  519  history >> history.txt
